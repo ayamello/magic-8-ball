@@ -1,0 +1,142 @@
+/* GERAL */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* GERAL */
+.container {
+    margin-top: -12px;
+    padding-bottom: 10vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: #fff;
+    background-color: #000;
+}
+    header h1 {
+        padding: 13px 20px 5px 20px;
+        font-variant: small-caps;
+    }
+    header figure {
+        padding-top: 15px;
+    }
+    header img {
+        width: 25px;
+    }
+
+main .divQuestion {
+    text-align: center;
+    padding: 0 10px;
+}
+    .divQuestion p {
+        font-size: 7vw;
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+    .divQuestion p span {
+        font-size: 4vw;
+    }
+
+main .divImg {
+    text-align: center;
+}
+    main figure img {
+        width: 100%;
+    }
+
+main #answer {
+    color: #fff;
+    font-family: 'Reggae One';
+    text-align: center;
+    font-size: calc(1em + 3vh);
+    margin-top: -64%;
+ }
+    #answer #answerButton {
+        border: none;
+        color: #fff;
+        background-color: #000;
+        padding: 15px 30px;
+        border-radius: 50%;
+        font-size: 36px;
+        font-family: 'Reggae One';
+    }
+        #answer #answerButton:hover {
+            cursor: pointer;
+        }
+
+main #reset {
+    text-align: center;
+    margin-top: 40vh;
+}
+    #reset #resetButton {
+        width: 30%;
+        padding: 7px 0;
+        border: 2px solid #000;
+        border-radius: 3px;
+        color: #000;
+        background-color: #fff;
+        font-weight: bold;
+    }
+        #reset #resetButton:hover {
+            cursor: pointer;
+        }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 415px) {
+    #answer #answerButton {
+        padding: 14px 30px;
+        font-size: calc(1em + 5vw);
+    }
+    main #answer {
+        font-size: calc(1em + 8vw);
+        margin-top: -70%;
+     }
+    main #reset {
+        margin-top: 55%;
+    }
+}
+
+@media only screen and (min-width: 668px) {
+    header{
+        font-size: 20px;
+    }
+        header img {
+            width: 40px;
+        }
+    .divQuestion p {
+        font-size: 5vw;
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+    .divQuestion p span {
+        font-size: 2vw;
+    }
+    
+    main #answer {
+        font-size: calc(1em + 8vw);
+        margin-top: -70%;
+     }
+    main #reset {
+        margin-top: 55%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main figure img {
+        width: 50%;
+    }
+    main #answer {
+        font-size: calc(1em + 4vw);
+        margin-top: -38%;
+     }
+     main #reset {
+        margin-top: 30%;
+    }
+}
+
