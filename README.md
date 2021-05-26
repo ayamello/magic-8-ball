@@ -10,5 +10,3 @@ Jogo em que o usuário faz uma pergunta sim-não à bola e, em seguida, vira-a p
 - Javascript 
 
 Desenvolvido em mobile first.
-
-https://ayanamello.gitlab.io/magic-8-ball/
